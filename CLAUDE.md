@@ -10,28 +10,49 @@ Console Quill is a development tool that captures console.log, console.warn, and
 2. A JavaScript client that overrides console methods
 3. A command-line interface for easy usage
 
-## Development Commands
+## Development Environment Setup
 
-### Installation and Setup
-```bash
-# Install in development mode
-uv tool install -e .
+Before making changes:
+1. Run `make install` to install in development mode
+2. Run `make dev` to start the development server
+3. The server will be available at http://localhost:9876
 
-# Run the server for testing
-console-quill --logfile test.log --port 9876
-```
+## Development Workflow
 
-### Project Structure
+### Before committing changes:
+1. Run `make lint` to format code and fix style issues
+2. Test functionality manually using test.html
+3. Verify both browser console and log file output work correctly
+
+### Making changes:
+- Follow existing code patterns and conventions
+- Test with various console message types (log, warn, error)
+- Update documentation when needed
+
+### Common development commands:
+- `make dev` - Start development server with test.log
+- `make lint` - Format and fix code style with ruff
+- `make install` - Install in development mode
+- `make clean` - Clean up test files
+- `make update` - Update dependencies
+- `make help` - Show all available commands
+
+## Project Structure
+
 - `console_quill/server.py` - Main HTTP server implementation
 - `console_quill/static/console-quill.js` - JavaScript client for console override
 - `console_quill/__init__.py` - Package initialization
 - `pyproject.toml` - Project configuration with entry point
+- `test.html` - Test file for manual testing
 
-### Testing
-Test the functionality by:
-1. Running the server: `console-quill --logfile test.log`
-2. Creating a test HTML file with `<script src="http://localhost:9876/console-quill.js"></script>`
-3. Opening the HTML file and checking both browser console and log file
+## Testing
+
+Manual testing workflow:
+1. Run `make dev` to start the server
+2. Open `test.html` in a browser
+3. Check browser console and `test.log` file for output
+4. Click the "Test Console Logs" button to generate more test messages
+5. Verify server connection errors are handled silently
 
 ## Architecture
 
