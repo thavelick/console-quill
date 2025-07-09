@@ -42,7 +42,9 @@ class ConsoleQuillHandler(BaseHTTPRequestHandler):
         self.end_headers()
 
     def serve_javascript(self):
-        js_path = os.path.join(os.path.dirname(__file__), "static", "console-quill.js")
+        js_path = os.path.join(
+            os.path.dirname(os.path.abspath(__file__)), "static", "console-quill.js"
+        )
         try:
             with open(js_path, "r") as f:
                 content = f.read()
