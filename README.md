@@ -55,7 +55,7 @@ This project is licensed under the AGPL-3.0 License - see the LICENSE file for d
 
 ## Development
 
-The project uses uv for dependency management and is structured as a standard Python package.
+The project uses uv for dependency management and includes a Makefile for common development tasks.
 
 ```bash
 # Clone the repository
@@ -63,8 +63,14 @@ git clone https://github.com/thavelick/console-quill.git
 cd console-quill
 
 # Install in development mode
-uv tool install -e .
+make install
 
-# Run the server
-console-quill --logfile test.log
+# Start development server
+make dev
+
+# Format and lint code
+make lint
+
+# See all available commands
+make help
 ```
