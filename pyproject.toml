@@ -9,6 +9,8 @@ dependencies = []
 [project.scripts]
 console-quill = "console_quill.server:main"
 
-[build-system]
-requires = ["hatchling"]
-build-backend = "hatchling.build"
+
+[dependency-groups]
+dev = [
+    "ruff>=0.12.2",
+]
