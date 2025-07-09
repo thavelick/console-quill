@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Console Quill Test</title>
+</head>
+<body>
+    <h1>Console Quill Test Page</h1>
+    <p>Check the browser console and the log file for output.</p>
+    
+    <button onclick="testLogs()">Test Console Logs</button>
+    
+    <script src="http://localhost:9876/console-quill.js"></script>
+    <script>
+        function testLogs() {
+            console.log("This is a test log message");
+            console.warn("This is a warning message");
+            console.error("This is an error message");
+            console.log("Testing with multiple", "arguments", {key: "value"}, [1, 2, 3]);
+        }
+        
+        // Test some initial logs
+        console.log("Page loaded successfully");
+        console.warn("This is a startup warning");
+        console.error("This is a startup error");
+    </script>
+</body>
+</html>

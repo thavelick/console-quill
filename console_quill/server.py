@@ -34,6 +34,13 @@ class ConsoleQuillHandler(BaseHTTPRequestHandler):
         else:
             self.send_error(404, "Not Found")
 
+    def do_OPTIONS(self):
+        self.send_response(200)
+        self.send_header('Access-Control-Allow-Origin', '*')
+        self.send_header('Access-Control-Allow-Methods', 'GET, POST, OPTIONS')
+        self.send_header('Access-Control-Allow-Headers', 'Content-Type')
+        self.end_headers()
+
     def serve_javascript(self):
         js_path = os.path.join(os.path.dirname(__file__), 'static', 'console-quill.js')
         try:
@@ -75,18 +82,15 @@ class ConsoleQuillHandler(BaseHTTPRequestHandler):
             post_data = self.rfile.read(content_length)
             log_data = json.loads(post_data.decode())
             
-            timestamp = datetime.now().isoformat()
-            level = log_data.get('level', 'log')
+            timestamp = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+            level = log_data.get('level', 'log').upper()
             message = log_data.get('message', '')
             
-            log_entry = {
-                'timestamp': timestamp,
-                'level': level,
-                'message': message
-            }
+            # Format like: 2025-07-08 21:33:52 [LOG] Page loaded successfully
+            log_entry = f"{timestamp} [{level}] {message}\n"
             
             with open(self.logfile_path, 'a') as f:
-                f.write(json.dumps(log_entry) + '\n')
+                f.write(log_entry)
             
             self.send_response(200)
             self.send_header('Content-type', 'application/json')

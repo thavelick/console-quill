@@ -32,12 +32,13 @@ Add this script tag to your HTML page:
 
 ### Log format
 
-Console messages are logged as JSON lines in the following format:
+Console messages are logged in a Unix-style format:
 
-```json
-{"timestamp": "2024-01-01T12:00:00.000Z", "level": "log", "message": "Your console message"}
-{"timestamp": "2024-01-01T12:00:01.000Z", "level": "warn", "message": "Warning message"}
-{"timestamp": "2024-01-01T12:00:02.000Z", "level": "error", "message": "Error message"}
+```
+2025-07-08 21:44:36 [LOG] Page loaded successfully
+2025-07-08 21:44:36 [WARN] This is a startup warning
+2025-07-08 21:44:36 [ERROR] This is a startup error
+2025-07-08 21:44:37 [LOG] Testing with multiple arguments {"key":"value"} [1,2,3]
 ```
 
 ## How it works
@@ -45,7 +46,8 @@ Console messages are logged as JSON lines in the following format:
 1. The Python server serves a JavaScript file that overrides the browser's console methods
 2. The JavaScript preserves the original console behavior (messages still appear in browser console)
 3. Additionally, it sends console messages to the `/log` endpoint via HTTP POST
-4. The server writes these messages to your specified log file
+4. The server writes these messages to your specified log file in Unix-style format
+5. Network errors are silently ignored to avoid cluttering the browser console
 
 ## License
 

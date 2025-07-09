@@ -1,0 +1,116 @@
+2025-07-08 21:36:08 [LOG] Console Quill initialized - console messages will be logged to server
+2025-07-08 21:36:08 [LOG] Page loaded successfully
+2025-07-08 21:36:08 [WARN] This is a startup warning
+2025-07-08 21:36:08 [ERROR] This is a startup error
+2025-07-08 21:36:11 [LOG] This is a test log message
+2025-07-08 21:36:11 [WARN] This is a warning message
+2025-07-08 21:36:11 [ERROR] This is an error message
+2025-07-08 21:36:11 [LOG] Testing with multiple arguments {"key":"value"} [1,2,3]
+2025-07-08 21:36:46 [LOG] Console Quill initialized - console messages will be logged to server
+2025-07-08 21:36:46 [LOG] Page loaded successfully
+2025-07-08 21:36:46 [WARN] This is a startup warning
+2025-07-08 21:36:46 [ERROR] This is a startup error
+2025-07-08 21:36:48 [LOG] This is a test log message
+2025-07-08 21:36:48 [WARN] This is a warning message
+2025-07-08 21:36:48 [ERROR] This is an error message
+2025-07-08 21:36:48 [LOG] Testing with multiple arguments {"key":"value"} [1,2,3]
+2025-07-08 21:36:48 [LOG] This is a test log message
+2025-07-08 21:36:48 [WARN] This is a warning message
+2025-07-08 21:36:48 [ERROR] This is an error message
+2025-07-08 21:36:48 [LOG] Testing with multiple arguments {"key":"value"} [1,2,3]
+2025-07-08 21:36:49 [LOG] This is a test log message
+2025-07-08 21:36:49 [WARN] This is a warning message
+2025-07-08 21:36:49 [ERROR] This is an error message
+2025-07-08 21:36:49 [LOG] Testing with multiple arguments {"key":"value"} [1,2,3]
+2025-07-08 21:40:44 [LOG] Console Quill initialized - console messages will be logged to server
+2025-07-08 21:40:44 [LOG] Page loaded successfully
+2025-07-08 21:40:44 [WARN] This is a startup warning
+2025-07-08 21:40:44 [ERROR] This is a startup error
+2025-07-08 21:40:48 [LOG] This is a test log message
+2025-07-08 21:40:48 [WARN] This is a warning message
+2025-07-08 21:40:48 [ERROR] This is an error message
+2025-07-08 21:40:48 [LOG] Testing with multiple arguments {"key":"value"} [1,2,3]
+2025-07-08 21:42:25 [LOG] Console Quill initialized - console messages will be logged to server
+2025-07-08 21:42:25 [LOG] Page loaded successfully
+2025-07-08 21:42:25 [WARN] This is a startup warning
+2025-07-08 21:42:25 [ERROR] This is a startup error
+2025-07-08 21:42:27 [LOG] This is a test log message
+2025-07-08 21:42:27 [WARN] This is a warning message
+2025-07-08 21:42:27 [ERROR] This is an error message
+2025-07-08 21:42:27 [LOG] Testing with multiple arguments {"key":"value"} [1,2,3]
+2025-07-08 21:42:40 [LOG] This is a test log message
+2025-07-08 21:42:40 [WARN] This is a warning message
+2025-07-08 21:42:40 [ERROR] This is an error message
+2025-07-08 21:42:40 [LOG] Testing with multiple arguments {"key":"value"} [1,2,3]
+2025-07-08 21:42:40 [LOG] This is a test log message
+2025-07-08 21:42:40 [WARN] This is a warning message
+2025-07-08 21:42:40 [ERROR] This is an error message
+2025-07-08 21:42:40 [LOG] Testing with multiple arguments {"key":"value"} [1,2,3]
+2025-07-08 21:42:41 [LOG] This is a test log message
+2025-07-08 21:42:41 [WARN] This is a warning message
+2025-07-08 21:42:41 [ERROR] This is an error message
+2025-07-08 21:42:41 [LOG] Testing with multiple arguments {"key":"value"} [1,2,3]
+2025-07-08 21:42:42 [LOG] This is a test log message
+2025-07-08 21:42:42 [WARN] This is a warning message
+2025-07-08 21:42:42 [ERROR] This is an error message
+2025-07-08 21:42:42 [LOG] Testing with multiple arguments {"key":"value"} [1,2,3]
+2025-07-08 21:42:42 [LOG] This is a test log message
+2025-07-08 21:42:42 [WARN] This is a warning message
+2025-07-08 21:42:42 [ERROR] This is an error message
+2025-07-08 21:42:42 [LOG] Testing with multiple arguments {"key":"value"} [1,2,3]
+2025-07-08 21:42:42 [LOG] This is a test log message
+2025-07-08 21:42:42 [WARN] This is a warning message
+2025-07-08 21:42:42 [ERROR] This is an error message
+2025-07-08 21:42:42 [LOG] Testing with multiple arguments {"key":"value"} [1,2,3]
+2025-07-08 21:42:42 [LOG] This is a test log message
+2025-07-08 21:42:42 [WARN] This is a warning message
+2025-07-08 21:42:42 [ERROR] This is an error message
+2025-07-08 21:42:42 [LOG] Testing with multiple arguments {"key":"value"} [1,2,3]
+2025-07-08 21:42:42 [LOG] This is a test log message
+2025-07-08 21:42:42 [WARN] This is a warning message
+2025-07-08 21:42:42 [ERROR] This is an error message
+2025-07-08 21:42:42 [LOG] Testing with multiple arguments {"key":"value"} [1,2,3]
+2025-07-08 21:42:42 [LOG] This is a test log message
+2025-07-08 21:42:43 [WARN] This is a warning message
+2025-07-08 21:42:43 [ERROR] This is an error message
+2025-07-08 21:42:43 [LOG] Testing with multiple arguments {"key":"value"} [1,2,3]
+2025-07-08 21:42:43 [LOG] This is a test log message
+2025-07-08 21:42:43 [WARN] This is a warning message
+2025-07-08 21:42:43 [ERROR] This is an error message
+2025-07-08 21:42:43 [LOG] Testing with multiple arguments {"key":"value"} [1,2,3]
+2025-07-08 21:42:43 [LOG] This is a test log message
+2025-07-08 21:42:43 [WARN] This is a warning message
+2025-07-08 21:42:43 [ERROR] This is an error message
+2025-07-08 21:42:43 [LOG] Testing with multiple arguments {"key":"value"} [1,2,3]
+2025-07-08 21:42:44 [LOG] This is a test log message
+2025-07-08 21:42:44 [WARN] This is a warning message
+2025-07-08 21:42:44 [ERROR] This is an error message
+2025-07-08 21:42:44 [LOG] Testing with multiple arguments {"key":"value"} [1,2,3]
+2025-07-08 21:42:44 [LOG] This is a test log message
+2025-07-08 21:42:44 [WARN] This is a warning message
+2025-07-08 21:42:44 [ERROR] This is an error message
+2025-07-08 21:42:44 [LOG] Testing with multiple arguments {"key":"value"} [1,2,3]
+2025-07-08 21:44:36 [LOG] Console Quill initialized - console messages will be logged to server
+2025-07-08 21:44:36 [LOG] Page loaded successfully
+2025-07-08 21:44:36 [WARN] This is a startup warning
+2025-07-08 21:44:36 [ERROR] This is a startup error
+2025-07-08 21:44:37 [LOG] This is a test log message
+2025-07-08 21:44:37 [WARN] This is a warning message
+2025-07-08 21:44:37 [ERROR] This is an error message
+2025-07-08 21:44:37 [LOG] Testing with multiple arguments {"key":"value"} [1,2,3]
+2025-07-08 21:44:39 [LOG] This is a test log message
+2025-07-08 21:44:39 [WARN] This is a warning message
+2025-07-08 21:44:39 [ERROR] This is an error message
+2025-07-08 21:44:39 [LOG] Testing with multiple arguments {"key":"value"} [1,2,3]
+2025-07-08 21:44:39 [LOG] This is a test log message
+2025-07-08 21:44:39 [WARN] This is a warning message
+2025-07-08 21:44:39 [ERROR] This is an error message
+2025-07-08 21:44:39 [LOG] Testing with multiple arguments {"key":"value"} [1,2,3]
+2025-07-08 21:44:39 [LOG] This is a test log message
+2025-07-08 21:44:39 [WARN] This is a warning message
+2025-07-08 21:44:39 [ERROR] This is an error message
+2025-07-08 21:44:39 [LOG] Testing with multiple arguments {"key":"value"} [1,2,3]
+2025-07-08 21:44:39 [LOG] This is a test log message
+2025-07-08 21:44:39 [WARN] This is a warning message
+2025-07-08 21:44:39 [ERROR] This is an error message
+2025-07-08 21:44:39 [LOG] Testing with multiple arguments {"key":"value"} [1,2,3]

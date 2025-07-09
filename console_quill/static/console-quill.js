@@ -1,6 +1,7 @@
 (function() {
     'use strict';
     
+    
     // Store original console methods
     const originalLog = console.log;
     const originalWarn = console.warn;
@@ -47,7 +48,7 @@
             timestamp: new Date().toISOString()
         };
         
-        // Send to server (fire and forget)
+        // Send to server (silently ignore errors)
         fetch(`${serverUrl}/log`, {
             method: 'POST',
             headers: {
@@ -55,7 +56,7 @@
             },
             body: JSON.stringify(logData)
         }).catch(err => {
-            // Silently ignore network errors to avoid infinite loops
+            // Silently ignore all network errors
         });
     }
     
